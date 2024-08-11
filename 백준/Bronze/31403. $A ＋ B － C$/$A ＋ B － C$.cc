@@ -8,8 +8,6 @@ int main(){
 	int B = 0;
 	int C = 0;
 
-	string A_str, B_str;
-
 	cin >> A >> B >> C;
 
 	cout << A + B - C << endl;
