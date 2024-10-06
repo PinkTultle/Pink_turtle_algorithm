@@ -13,7 +13,7 @@ int main(){
 
 	std::cin >> input;
 
-	for(tmp = input; tmp > 10;){
+	for(tmp = input; tmp > 10; ){
 		tmp /= 10;
 		compare_num += 9;
 	}
@@ -28,7 +28,6 @@ int main(){
 			creat_num += (tmp % 10);
 			tmp /= 10;
 		}
-		// creat_num += tmp;
 		
 		if (creat_num == input) {
 			std::cout << compare_num << std::endl;
